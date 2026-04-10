@@ -16,17 +16,17 @@
   ],
   "require": {
     "php": ">=8.2",
-    "illuminate/database": "^v11.42.1",
-    "illuminate/support": "^v11.42.1",
-    "illuminate/collections": "^v11.42.1",
-    "illuminate/config": "^v11.42.1",
-    "illuminate/cache": "^v11.42.1",
-    "symfony/console": "^v7.2.1"
+    "illuminate/database": "^11.0|^12.0|^13.0",
+    "illuminate/support": "^11.0|^12.0|^13.0",
+    "illuminate/collections": "^11.0|^12.0|^13.0",
+    "illuminate/config": "^11.0|^12.0|^13.0",
+    "illuminate/cache": "^11.0|^12.0|^13.0",
+    "symfony/console": "^7.0|^8.0"
   },
   "require-dev": {
     "mockery/mockery": "^1.2.4",
-    "orchestra/testbench": "^v9.10.0",
-    "phpunit/phpunit": "^11.5.7"
+    "orchestra/testbench": "^9.0|^10.0",
+    "phpunit/phpunit": "^11.0"
   },
   "autoload-dev": {
     "psr-4": {
